@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #cdcdcd;
+}
+
+h1 {
+    padding-top: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    padding: 10px 0px;
+    line-height: 25px;
+}
+
+p img {
+    height: 200px;
+}
+
+subnav a {
+    color: white;
+    font-size: 16px;
+}
+
+subnav table {  
+    margin-top: 10px;
+    border-collapse: collapse;
+    background: black;
+}
+
+.container {
+    background: #b3e6b3;
+    padding-bottom: 15px;
+}
+
+.container h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container img {
+    height: 180px;
+
+}
+
+.meInfo p {
+    top: 80px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#aboutBG {
+    position: absolute;
+    display: none;
+}
+
+.aboutPics {
+    top: -30px;
+}
+
+#annaHeader {
+    padding-top: 20px;
+}
+
+.wood {
+    margin-bottom: 20px;
+    background: #cbb5f5;
+}
+
+#annaHeader {
+    top: 100px;
+}
+
+.Anna {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+p.woodText {
+    margin-top: -20px;
+}
+
+.violin1 {
+    position: absolute;
+    display: none;
+}
+
+.violin2 {
+    position: absolute;
+    display: none;
+}
+
+body fall2021 table {
+    border-collapse: collapse;
+}
+
+.schedule {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 100%
+}
+
+.gameVids h2 {
+    margin: 2%;
+}
+
+.schoolHeader {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.table {
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.schoolHeader {
+    margin: 20px 0px;
+}
+
+.schoolProject .tableRow .projectPhotos {
+    text-align: center;
+}
+
+.schoolProject .table {
+    margin-bottom: 20px;
+}
+
+.schoolProject h2 {
+    background: white;
+}
+
+#EVlogo {
+    position: relative;
+}
+
+#EVlogo img {
+    position: absolute;
+    right: 20px;
+    top: -90px;
+}
+
+.APscores ul {
+    margin-left: 60px;
+}
+
+#profile {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#profile img {
+    height: 100%;
+}
+
+#profileLink {
+    margin-bottom: 20px;
+}
+
+h3 a {
+    margin-left: 5%;
+    color: black;
+}
+
+.robotAwards {
+    padding: 10px 0px;
+    background: #cbb5f5;
+}
+
+.robotAccom {
+    margin: 20px 0px;
+}
+
+.robotAccom ul {
+    margin-left: 60px;
+}
+
+.robotAccom ul li {
+    font-size: 20px;
+}
+
+.overviewNav {
+    padding: 0px -10px;
+}
+
+#tourneyTitle {
+    background: #b3e6b3;
+    margin: 20px 0px;
+    margin-right: -5%;
+    margin-left: -5%;
+}
+
+.gameSchedule {
+    border-collapse: collapse;
+}
+
+.gameVids table tr th video {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90vw;
+}
+
+.gameVids table tr th {
+    display: table-row;
+    align-items: center;
+}
+
+.gameVids table tr th img {
+    display: none;
+}

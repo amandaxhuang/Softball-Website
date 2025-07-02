@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background: #cdcdcd;
+    background-size: cover; 
+}
+
+#logo {
+    padding: 10px;
+    left: -20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+
+header .navbar ul{
+    list-style: none;
+
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+    padding-right: 100px;
+}
+
+header .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    color: white;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    padding-top: 15px;
+    background: black;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid white;
+    padding-right: 20px;
+}
+
+header .navbar ul li ul li ul {
+    padding-top: 0px;
+    left: 200px;
+    top: -1px;
+}
+
+header .navbar ul li ul li ul li {
+    background: #222222;
+    width: 122%;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.classDrop {
+    left: -20px;
+    width: 100px;
+}
+
+@media(max-width:1150px){
+
+    header {
+        padding: 0px;
+        padding-right: 20px;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: black;
+        border-top: 1px solid white;
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: #222222;
+        width: 140%;
+    }
+
+    header .navbar ul li ul li ul {
+        width: 100%;
+        background: #333333;
+        left: 0;
+    }
+
+    header .navbar ul li ul li ul li {
+        width: 120%;
+        background: #333333;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+}
+
+footer {
+    background: black;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer > img {
+    margin-top: 5px;
+}
+
+.footerContent {
+    position: relative;
+    list-style-type: none;
+}
+
+.verticalLine {
+    position: absolute;
+    top: -85px;
+    left: 100px;
+    border-left: 2px solid white;
+    height: 60px;
+    transform: translate(0%, 20%);
+}
+
+.socials {
+    position: absolute;
+    top: -90px;
+    left: 120px;
+}
+
+.emailAddress {
+    position: absolute;
+    top: -88px;
+    left: 160px;
+}
+
+.instagram {
+    position: absolute;
+    top: -58px;
+    left: 160px;
+}
+
+.twitter {
+    position: absolute;
+    top: -28px;
+    left: 160px;
+}
+
+.top {
+    position: absolute;
+    top: -95px;
+    right: 20px;
+}
+
+.verticalLineRight {
+    position: absolute;
+    top: -85px;
+    Right: 120px;
+    border-left: 2px solid white;
+    height: 60px;
+    transform: translate(0%, 20%);
+}
+
+.LinkToPages {
+    position:absolute;
+    top: -65px;
+    right: 140px;
+    text-decoration: underline;
+}
+
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+@media(max-width:600px){
+
+    .emailAddress, .instagram, .twitter {
+        display: none;
+    }
+
+    .socials ul {
+        position: absolute;
+        display: flex;
+        top: 20px;
+    }
+
+    .socials ul li {
+        width: 50px;
+    }
+
+    .socials ul li a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media(max-width:400px){
+
+        .LinkToPages {
+            display: none;
+        }
+}
